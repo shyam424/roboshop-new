@@ -13,7 +13,7 @@ cd /app || exit
 npm install
 
 dnf install mongodb-org-shell -y
-mongo --host MONGODB-SERVER-IPADDRESS </app/schema/user.js
+mongo --host mongodb.devopspractice23.online </app/schema/user.js
 
 systemctl daemon-reload
 systemctl enable user
