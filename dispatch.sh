@@ -11,8 +11,6 @@ go mod init dispatch
 go get
 go build
 
-dnf install mongodb-org-shell -y
-mongo --host mongodb.devopspracticeonline.23 </app/schema/catalogue.js
 
 systemctl daemon-reload
 systemctl enable dispatch
